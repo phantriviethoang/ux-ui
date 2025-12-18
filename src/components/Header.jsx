@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
 	return (
 		<div className="pt-1 pl-1 flex justify-between w-full items-center border border-b-2 border-b-gray-500">
@@ -9,7 +11,7 @@ export default function Header() {
 			<nav className="flex space-x-6 ml-auto mr-3">
 				<span>De thi online</span>
 				<span>Flashcards</span>
-				<span>Dang nhap</span>
+				<Link to="/dangnhap">Dang nhap</Link>
 				<span>Dang ky</span>
 			</nav>
 			<hr />
