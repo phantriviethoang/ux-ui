@@ -16,7 +16,7 @@ export default function Header() {
                     </div>
                     <div class="space-x-6 font-bold">
                         <Link className="hover:underline hover:text-gray-800" to="#">De thi</Link>
-                        <Link className="hover:underline hover:text-gray-800" to="#">FlashCard</Link>
+                        <Link className="hover:underline hover:text-gray-800" to="/chonthe">FlashCard</Link>
                     </div>
                     <div class="space-x-6 font-bold flex">
                         {/* <form

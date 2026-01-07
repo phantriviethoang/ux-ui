@@ -4,6 +4,7 @@ import Dangnhap from "./Auth/Dangnhap";
 import Dangky from "./Auth/Dangky";
 import Quenmatkhau from "./Auth/Quenmatkhau";
 import IndexUnLogin from "./Home/IndexUnLogin";
+import Chonthe from "./Flashcard/Chonthe";
 
 function App() {
     return (
@@ -15,6 +16,10 @@ function App() {
             <Route
                 path="/index"
                 element={<IndexUnLogin />}
+            />
+            <Route
+                path="/chonthe"
+                element={<Chonthe />}
             />
             <Route
                 path="/dangnhap"
