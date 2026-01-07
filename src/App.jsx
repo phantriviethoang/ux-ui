@@ -3,6 +3,7 @@ import Home from "./Home";
 import Dangnhap from "./Auth/Dangnhap";
 import Dangky from "./Auth/Dangky";
 import Quenmatkhau from "./Auth/Quenmatkhau";
+import IndexUnLogin from "./IndexUnLogin";
 
 function App() {
     return (
@@ -10,6 +11,10 @@ function App() {
             <Route
                 path="/"
                 element={<Home />}
+            />
+            <Route
+                path="/index"
+                element={<IndexUnLogin />}
             />
             <Route
                 path="/dangnhap"

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-        <div class="bg-white text-black font-hanken-grotesk pb-20">
+        <div class="bg-white text-black font-hanken-grotesk">
             <div class="px-10">
                 <nav class="flex items-center justify-between border-b border-white/10 py-4">
                     <div>
