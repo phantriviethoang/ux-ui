@@ -3,7 +3,7 @@ import Home from "./Home";
 import Dangnhap from "./Auth/Dangnhap";
 import Dangky from "./Auth/Dangky";
 import Quenmatkhau from "./Auth/Quenmatkhau";
-import IndexUnLogin from "./IndexUnLogin";
+import IndexUnLogin from "./Home/IndexUnLogin";
 
 function App() {
     return (

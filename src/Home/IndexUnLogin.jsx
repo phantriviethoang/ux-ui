@@ -1,11 +1,9 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default function IndexUnLogin() {
     return (
         <>
-            <Header />
-
             <div className="min-h-screen flex flex-col">
                 <div className="bg-gray-200 pt-10 pb-50">
                     <div className="flex flex-col items-center">
@@ -32,8 +30,6 @@ export default function IndexUnLogin() {
                     </button>
                 </div>
             </div>
-
-            <Footer />
         </>
     );
 }

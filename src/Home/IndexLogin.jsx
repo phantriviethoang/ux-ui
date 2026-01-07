@@ -1,4 +1,4 @@
-export default function Trangchu() {
+export default function IndexLogin() {
 	return (
 		<div className="h-full">
 			<div className="bg-blue-100 flex flex-col w-full justify-center items-center h-60">
