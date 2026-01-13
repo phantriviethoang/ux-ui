@@ -6,6 +6,8 @@ import Quenmatkhau from "./Auth/Quenmatkhau";
 import IndexUnLogin from "./Home/IndexUnLogin";
 import Chonthe from "./Flashcard/Chonthe";
 import Flashcard from "./Flashcard/Flashcard";
+import Dethi from "./Dethi/Dethi";
+import Lamdethi from "./Dethi/Lamdethi";
 
 function App() {
     return (
@@ -25,6 +27,14 @@ function App() {
             <Route
                 path="/flashcard"
                 element={<Flashcard />}
+            />
+            <Route
+                path="/dethi"
+                element={<Dethi />}
+            />
+            <Route
+                path="/lamdethi"
+                element={<Lamdethi />}
             />
             <Route
                 path="/dangnhap"
