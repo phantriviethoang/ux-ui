@@ -18,19 +18,24 @@ export default function Header() {
                         <Link className="hover:underline hover:text-gray-800" to="/dethi">De thi</Link>
                         <Link className="hover:underline hover:text-gray-800" to="/chonthe">FlashCard</Link>
                     </div>
-                    <div class="space-x-6 font-bold flex">
-                        {/* <form
+
+                    {true ?
+
+                        <div class="space-x-6 font-bold flex">
+                            {/* <form
 							method="POST"
 							action="/logout"
 						>
 							<button>Log Out</button>
 						</form> */}
-                        <Link className="hover:underline hover:text-gray-800" to="/">Log Out</Link>
-                    </div>
-                    <div class="space-x-6 font-bold">
-                        <Link className="hover:underline hover:text-gray-800" to="/dangnhap">Sign Up</Link>
-                        <Link className="hover:underline hover:text-gray-800" to="/dangky">Log In</Link>
-                    </div>
+                            <Link className="hover:underline hover:text-gray-800" to="/">Log Out</Link>
+                        </div>
+                        :
+                        <div class="space-x-6 font-bold">
+                            <Link className="hover:underline hover:text-gray-800" to="/dangnhap">Sign Up</Link>
+                            <Link className="hover:underline hover:text-gray-800" to="/dangky">Log In</Link>
+                        </div>
+                    }
                 </nav>
             </div>
         </div>
