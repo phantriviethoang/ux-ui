@@ -91,10 +91,120 @@ export const mockData = {
                 { label: "A", text: "go" },
                 { label: "B", text: "goes" },
                 { label: "C", text: "going" },
-                { label: "D", text: "gone" }
+                { label: "D", text: "gone" },
             ],
             correctAnswer: "B"
-        }
+        },
+        {
+            id: 1,
+            question: "She ____ to school every day.",
+            options: [
+                { label: "A", text: "go" },
+                { label: "B", text: "goes" },
+                { label: "C", text: "going" },
+                { label: "D", text: "gone" },
+            ],
+            correctAnswer: "B"
+        },
+        {
+            id: 1,
+            question: "She ____ to school every day.",
+            options: [
+                { label: "A", text: "go" },
+                { label: "B", text: "goes" },
+                { label: "C", text: "going" },
+                { label: "D", text: "gone" },
+            ],
+            correctAnswer: "B"
+        },
+        {
+            id: 1,
+            question: "She ____ to school every day.",
+            options: [
+                { label: "A", text: "go" },
+                { label: "B", text: "goes" },
+                { label: "C", text: "going" },
+                { label: "D", text: "gone" },
+            ],
+            correctAnswer: "B"
+        },
+        {
+            id: 1,
+            question: "She ____ to school every day.",
+            options: [
+                { label: "A", text: "go" },
+                { label: "B", text: "goes" },
+                { label: "C", text: "going" },
+                { label: "D", text: "gone" },
+            ],
+            correctAnswer: "B"
+        },
+        {
+            id: 1,
+            question: "She ____ to school every day.",
+            options: [
+                { label: "A", text: "go" },
+                { label: "B", text: "goes" },
+                { label: "C", text: "going" },
+                { label: "D", text: "gone" },
+            ],
+            correctAnswer: "B"
+        },
+        {
+            id: 1,
+            question: "She ____ to school every day.",
+            options: [
+                { label: "A", text: "go" },
+                { label: "B", text: "goes" },
+                { label: "C", text: "going" },
+                { label: "D", text: "gone" },
+            ],
+            correctAnswer: "B"
+        },
+        {
+            id: 1,
+            question: "She ____ to school every day.",
+            options: [
+                { label: "A", text: "go" },
+                { label: "B", text: "goes" },
+                { label: "C", text: "going" },
+                { label: "D", text: "gone" },
+            ],
+            correctAnswer: "B"
+        },
+        {
+            id: 1,
+            question: "She ____ to school every day.",
+            options: [
+                { label: "A", text: "go" },
+                { label: "B", text: "goes" },
+                { label: "C", text: "going" },
+                { label: "D", text: "gone" },
+            ],
+            correctAnswer: "B"
+        },
+        {
+            id: 1,
+            question: "She ____ to school every day.",
+            options: [
+                { label: "A", text: "go" },
+                { label: "B", text: "goes" },
+                { label: "C", text: "going" },
+                { label: "D", text: "gone" },
+            ],
+            correctAnswer: "B"
+        },
+        {
+            id: 1,
+            question: "She ____ to school every day.",
+            options: [
+                { label: "A", text: "go" },
+                { label: "B", text: "goes" },
+                { label: "C", text: "going" },
+                { label: "D", text: "gone" },
+            ],
+            correctAnswer: "B"
+        },
     ],
 
     // 6. Quản lý người dùng (Dành cho phần Admin trong ảnh)
